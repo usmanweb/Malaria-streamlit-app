@@ -1,7 +1,6 @@
-streamlit>=1.36
-pandas>=2.0
-numpy>=1.25
-scikit-learn>=1.4
-matplotlib>=3.8
-# NOTE: torch is optional; if you want transformers enabled, add a CPU wheel like:
-torch==2.1.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+torch
