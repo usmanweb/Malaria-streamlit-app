@@ -1,4 +1,4 @@
-# app.py — Hardened Streamlit app for Malaria Prediction (DHS-style)
+# app.py — Hardened Streamlit app for Malaria Prediction
 # - Works even if PyTorch isn't available (hides Transformer options, keeps Ridge baseline)
 # - Robust parsing of pfir_YYYY (target), pYYYY_M (rainfall), tYYYY_M (temperature)
 # - Clear error messages + guardrails to avoid common Streamlit Cloud issues
@@ -165,7 +165,7 @@ if TORCH_OK:
 
 # ---------------- UI ----------------
 
-st.title("🧬 Malaria Prediction (DHS-style)")
+st.title("🧬 Malaria Prediction")
 st.caption("Upload or commit your CSVs to ./data. The app handles wide-to-long, annualizes pYYYY_M/tYYYY_M, merges by keys+year, and evaluates models.")
 
 st.sidebar.header("1) Data files")
